@@ -10,7 +10,8 @@ weight: ['400', '500', '600', '700'],
 export const metadata: Metadata = {
   title: 'Evently',
   description: 'Event management app',
-  icons: './assets/images/logo.svg'
+  icons:{ icon:'./assets/images/logo.svg'
+  }
 }
 
 export default function RootLayout({
