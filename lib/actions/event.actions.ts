@@ -36,7 +36,7 @@ export async function createEvent({ userId, event, path }: CreateEventParams) {
     if (!organizer) throw new Error('Organizer not found')
 
     const newEvent = await Event.create({ ...event, category: event.categoryId, organizer: userId })
-    revalidatePath(path)
+    //revalidatePath(path)
 
     return JSON.parse(JSON.stringify(newEvent))
   } catch (error) {
@@ -59,7 +59,7 @@ export async function getEventById(eventId: string) {
   }
 }
 
-// UPDATE
+// // UPDATE
 export async function updateEvent({ userId, event, path }: UpdateEventParams) {
   try {
     await connectToDatabase()
@@ -82,7 +82,7 @@ export async function updateEvent({ userId, event, path }: UpdateEventParams) {
   }
 }
 
-// DELETE
+// // DELETE
 export async function deleteEvent({ eventId, path }: DeleteEventParams) {
   try {
     await connectToDatabase()
@@ -123,7 +123,7 @@ export async function getAllEvents({ query, limit = 6, page, category }: GetAllE
   }
 }
 
-// GET EVENTS BY ORGANIZER
+// // GET EVENTS BY ORGANIZER
 export async function getEventsByUser({ userId, limit = 6, page }: GetEventsByUserParams) {
   try {
     await connectToDatabase()
@@ -145,7 +145,7 @@ export async function getEventsByUser({ userId, limit = 6, page }: GetEventsByUs
   }
 }
 
-// GET RELATED EVENTS: EVENTS WITH SAME CATEGORY
+// // GET RELATED EVENTS: EVENTS WITH SAME CATEGORY
 export async function getRelatedEventsByCategory({
   categoryId,
   eventId,
