@@ -11,6 +11,7 @@ const Footer = () => {
             alt="logo"
             width={128}
             height={38}
+            style={{ width: "auto", height: "auto" }}
           />
         </Link>
 
