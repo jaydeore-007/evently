@@ -1,7 +1,7 @@
 Welcome to our cutting-edge Events platform, leveraging the power of Next.js 14 to deliver an immersive and comprehensive event management experience. Seamlessly integrating technologies such as Node.js, TypeScript, TailwindCSS, and Stripe, we provide users with a versatile and secure solution for both attending and organizing events.
 
 
-#Tech stack- 
+## **Tech stack-**
 
 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
@@ -10,7 +10,9 @@ Welcome to our cutting-edge Events platform, leveraging the power of Next.js 14 
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white)
 
-#🚀 Key Features:
+##🚀**Key Features**:
+
+
 🔐Authentication (CRUD) with Clerk
 
 📘Event Management (CRUD)
