@@ -1,7 +1,9 @@
 Welcome to our cutting-edge Events platform, leveraging the power of Next.js 14 to deliver an immersive and comprehensive event management experience. Seamlessly integrating technologies such as Node.js, TypeScript, TailwindCSS, and Stripe, we provide users with a versatile and secure solution for both attending and organizing events.
 
 
-##Tech stack:
+##Tech stack- 
+
+
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 
 🚀 Key Features:
