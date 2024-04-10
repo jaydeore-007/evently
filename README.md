@@ -1,6 +1,9 @@
 Welcome to our cutting-edge Events platform, leveraging the power of Next.js 14 to deliver an immersive and comprehensive event management experience. Seamlessly integrating technologies such as Node.js, TypeScript, TailwindCSS, and Stripe, we provide users with a versatile and secure solution for both attending and organizing events.
 
 
+https://github.com/jaydeore-007/evently/assets/93081519/a295a8cc-587f-417e-8c37-ce48cd4c04b2
+
+
 ## **Tech stack-**
 
 
